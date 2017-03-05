@@ -22,7 +22,7 @@ var lxController = function(helpers) {
   return {
     getReverseWords: getReverseWords,
     getSortWords: getSortWords,
-    calculateAfterTaxIncome: calculateAfterTaxIncome
+    getAfterTaxIncome: getAfterTaxIncome
   }
 }
 
