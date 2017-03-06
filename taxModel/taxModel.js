@@ -1,3 +1,5 @@
+/* taxModel object with tax specific information
+for tax brackets */
 const taxModel = {
   taxRates: [
     {
