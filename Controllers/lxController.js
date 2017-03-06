@@ -1,5 +1,5 @@
 var lxController = function(helpers) {
-
+//js.comment
   var getReverseWords = function(req,res){
     let word = req.params.word;
     res.status(200)
