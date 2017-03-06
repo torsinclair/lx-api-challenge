@@ -8,7 +8,7 @@ const helpers = {
   should remain in position.
   Apostrophes should be treated as other characters. */
   reverseSentence: function(sentence) {
-    return sentence.replace(/[a-z']+/ig, function(w){
+    return sentence.replace(/[A-Za-z0-9']+/ig, function(w){
       return w.split('').reverse().join('')
     });
   },
